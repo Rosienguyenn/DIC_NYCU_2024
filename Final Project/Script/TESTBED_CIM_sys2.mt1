@@ -1,0 +1,16 @@
+$DATA1 SOURCE='HSPICE' VERSION='Q-2020.03-SP2-2 linux64' PARAM_COUNT=0
+$OPTION MEASFORM=2
+.TITLE ''
+p_cim_arr =  1.029e-05
+p_adder0 =  4.401e-05
+p_adder1 =  4.689e-05
+p_adder2 =  4.582e-05
+p_adder3 =  4.595e-05
+p_acc0 =  6.363e-06
+p_acc1 =  6.506e-06
+p_acc2 =  6.359e-06
+p_acc3 =  6.434e-06
+total_power =  2.186e-04
+temper =   25.0000
+alter# = 2
+
