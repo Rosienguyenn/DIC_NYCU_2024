@@ -1,0 +1,498 @@
+.SUBCKT Adder_Tree VPRW VGND  rst_n clk T_w1[3] T_w1[2] T_w1[1] T_w1[0]
++ T_w2[3] T_w2[2] T_w2[1] T_w2[0]
++ T_w3[3] T_w3[2] T_w3[1] T_w3[0]
++ T_w4[3] T_w4[2] T_w4[1] T_w4[0]
++ T_w5[3] T_w5[2] T_w5[1] T_w5[0]
++ T_w6[3] T_w6[2] T_w6[1] T_w6[0]
++ T_w7[3] T_w7[2] T_w7[1] T_w7[0]
++ T_w8[3] T_w8[2] T_w8[1] T_w8[0]
++ T_w9[3] T_w9[2] T_w9[1] T_w9[0]
++ T_w10[3] T_w10[2] T_w10[1] T_w10[0]
++ T_w11[3] T_w11[2] T_w11[1] T_w11[0]
++ T_w12[3] T_w12[2] T_w12[1] T_w12[0]
++ T_w13[3] T_w13[2] T_w13[1] T_w13[0]
++ T_w14[3] T_w14[2] T_w14[1] T_w14[0]
++ T_w15[3] T_w15[2] T_w15[1] T_w15[0]
++ T_w16[3] T_w16[2] T_w16[1] T_w16[0]
++ T_w17[3] T_w17[2] T_w17[1] T_w17[0]
++ T_w18[3] T_w18[2] T_w18[1] T_w18[0]
++ T_w19[3] T_w19[2] T_w19[1] T_w19[0]
++ T_w20[3] T_w20[2] T_w20[1] T_w20[0]
++ T_w21[3] T_w21[2] T_w21[1] T_w21[0]
++ T_w22[3] T_w22[2] T_w22[1] T_w22[0]
++ T_w23[3] T_w23[2] T_w23[1] T_w23[0]
++ T_w24[3] T_w24[2] T_w24[1] T_w24[0]
++ T_w25[3] T_w25[2] T_w25[1] T_w25[0]
++ T_w26[3] T_w26[2] T_w26[1] T_w26[0]
++ T_w27[3] T_w27[2] T_w27[1] T_w27[0]
++ T_w28[3] T_w28[2] T_w28[1] T_w28[0]
++ T_w29[3] T_w29[2] T_w29[1] T_w29[0]
++ T_w30[3] T_w30[2] T_w30[1] T_w30[0]
++ T_w31[3] T_w31[2] T_w31[1] T_w31[0]
++ T_w32[3] T_w32[2] T_w32[1] T_w32[0]
++ P[8] P[7] P[6] P[5] P[4] P[3] P[2] P[1] P[0]
+
+Xadd_128 VPRW VGND n419 sum_level4[7] sum_level4[6] sum_level4[5] sum_level4[4]
++ sum_level4[3] sum_level4[2] sum_level4[1] sum_level4[0] n419
++ sum_level4[15] sum_level4[14] sum_level4[13] sum_level4[12]
++ sum_level4[11] sum_level4[10] sum_level4[9] sum_level4[8]
++ n419 N181 N180 N179 N178 N177 N176 N175 N174 N173
++ CO_f1 Adder_Tree_DW01_add_0
+
+Xadd_118 VPRW VGND  n419 sum_level3[20] sum_level3[19] sum_level3[18] sum_level3[17]
++ sum_level3[16] sum_level3[15] sum_level3[14] n419 sum_level3[27]
++ sum_level3[26] sum_level3[25] sum_level3[24] sum_level3[23] sum_level3[22]
++ sum_level3[21] n419 N172 N171 N170 N169 N168 N167 N166 N165
++ CO_f2 Adder_Tree_DW01_add_1
+
+Xadd_117 VPRW VGND  n419 sum_level3[6] sum_level3[5] sum_level3[4] sum_level3[3]
++ sum_level3[2] sum_level3[1] sum_level3[0] n419 sum_level3[13] sum_level3[12]
++ sum_level3[11] sum_level3[10] sum_level3[9] sum_level3[8] sum_level3[7]
++ n419 N164 N163 N162 N161 N160 N159 N158 N157
++ CO_f3 Adder_Tree_DW01_add_2
+
+Xadd_104 VPRW VGND  n419 sum_level2[41] sum_level2[40] sum_level2[39] sum_level2[38]
++ sum_level2[37] sum_level2[36] n419 sum_level2[47] sum_level2[46] sum_level2[45]
++ sum_level2[44] sum_level2[43] sum_level2[42] n419 N156 N155 N154 N153 N152 N151 N150
++ CO_f4 Adder_Tree_DW01_add_3
+
+Xadd_103 VPRW VGND  n419 sum_level2[29] sum_level2[28] sum_level2[27] sum_level2[26]
++ sum_level2[25] sum_level2[24] n419 sum_level2[35] sum_level2[34] sum_level2[33]
++ sum_level2[32] sum_level2[31] sum_level2[30] n419 N149 N148 N147 N146 N145 N144 N143
++ CO_f5 Adder_Tree_DW01_add_4
+
+Xadd_102 VPRW VGND  n419 sum_level2[17] sum_level2[16] sum_level2[15] sum_level2[14]
++ sum_level2[13] sum_level2[12] n419 sum_level2[23] sum_level2[22] sum_level2[21]
++ sum_level2[20] sum_level2[19] sum_level2[18] n419 N142 N141 N140 N139 N138 N137 N136
++ CO_f6 Adder_Tree_DW01_add_5
+
+Xadd_101 VPRW VGND  n419 sum_level2[5] sum_level2[4] sum_level2[3] sum_level2[2]
++ sum_level2[1] sum_level2[0] n419 sum_level2[11] sum_level2[10] sum_level2[9]
++ sum_level2[8] sum_level2[7] sum_level2[6] n419 N135 N134 N133 N132 N131 N130 N129
++ CO_f7 Adder_Tree_DW01_add_6
+
+Xadd_88_U1_1 sum_level1[71] sum_level1[76] n418 n650 n649  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_88_U1_2 sum_level1[72] sum_level1[77] n657 n652 n651  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_88_U1_3 sum_level1[73] sum_level1[78] n658 n654 n653  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_88_U1_4 sum_level1[74] sum_level1[79] n659 n656 n655  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_87_U1_1 sum_level1[61] sum_level1[66] n417 n638 n637  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_87_U1_2 sum_level1[62] sum_level1[67] n645 n640 n639  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_87_U1_3 sum_level1[63] sum_level1[68] n646 n642 n641  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_87_U1_4 sum_level1[64] sum_level1[69] n647 n644 n643  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_86_U1_1 sum_level1[51] sum_level1[56] n416 n626 n625  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_86_U1_2 sum_level1[52] sum_level1[57] n633 n628 n627  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_86_U1_3 sum_level1[53] sum_level1[58] n634 n630 n629  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_86_U1_4 sum_level1[54] sum_level1[59] n635 n632 n631  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_85_U1_1 sum_level1[41] sum_level1[46] n415 n614 n613  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_85_U1_2 sum_level1[42] sum_level1[47] n621 n616 n615  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_85_U1_3 sum_level1[43] sum_level1[48] n622 n618 n617  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_85_U1_4 sum_level1[44] sum_level1[49] n623 n620 n619  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_84_U1_1 sum_level1[31] sum_level1[36] n414 n602 n601  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_84_U1_2 sum_level1[32] sum_level1[37] n609 n604 n603  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_84_U1_3 sum_level1[33] sum_level1[38] n610 n606 n605  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_84_U1_4 sum_level1[34] sum_level1[39] n611 n608 n607  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_83_U1_1 sum_level1[21] sum_level1[26] n413 n590 n589  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_83_U1_2 sum_level1[22] sum_level1[27] n597 n592 n591  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_83_U1_3 sum_level1[23] sum_level1[28] n598 n594 n593  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_83_U1_4 sum_level1[24] sum_level1[29] n599 n596 n595  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_82_U1_1 sum_level1[11] sum_level1[16] n412 n578 n577  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_82_U1_2 sum_level1[12] sum_level1[17] n585 n580 n579  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_82_U1_3 sum_level1[13] sum_level1[18] n586 n582 n581  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_82_U1_4 sum_level1[14] sum_level1[19] n587 n584 n583  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_81_U1_1 sum_level1[1] sum_level1[6] n411 n566 n565  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_81_U1_2 sum_level1[2] sum_level1[7] n573 n568 n567  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_81_U1_3 sum_level1[3] sum_level1[8] n574 n570 n569  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_81_U1_4 sum_level1[4] sum_level1[9] n575 n572 n571  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_68_U1_1 T_w31[1] T_w32[1] n410 n557 n556  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_68_U1_2 T_w31[2] T_w32[2] n562 n559 n558  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_68_U1_3 T_w31[3] T_w32[3] n563 n561 n560  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_67_U1_1 T_w29[1] T_w30[1] n409 n548 n547  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_67_U1_2 T_w29[2] T_w30[2] n553 n550 n549  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_67_U1_3 T_w29[3] T_w30[3] n554 n552 n551  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_66_U1_1 T_w27[1] T_w28[1] n408 n539 n538  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_66_U1_2 T_w27[2] T_w28[2] n544 n541 n540  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_66_U1_3 T_w27[3] T_w28[3] n545 n543 n542  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_65_U1_1 T_w25[1] T_w26[1] n407 n530 n529  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_65_U1_2 T_w25[2] T_w26[2] n535 n532 n531  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_65_U1_3 T_w25[3] T_w26[3] n536 n534 n533  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_64_U1_1 T_w23[1] T_w24[1] n406 n521 n520  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_64_U1_2 T_w23[2] T_w24[2] n526 n523 n522  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_64_U1_3 T_w23[3] T_w24[3] n527 n525 n524  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_63_U1_1 T_w21[1] T_w22[1] n405 n512 n511  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_63_U1_2 T_w21[2] T_w22[2] n517 n514 n513  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_63_U1_3 T_w21[3] T_w22[3] n518 n516 n515  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_62_U1_1 T_w19[1] T_w20[1] n404 n503 n502  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_62_U1_2 T_w19[2] T_w20[2] n508 n505 n504  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_62_U1_3 T_w19[3] T_w20[3] n509 n507 n506  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_61_U1_1 T_w17[1] T_w18[1] n403 n494 n493  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_61_U1_2 T_w17[2] T_w18[2] n499 n496 n495  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_61_U1_3 T_w17[3] T_w18[3] n500 n498 n497  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_60_U1_1 T_w15[1] T_w16[1] n402 n485 n484  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_60_U1_2 T_w15[2] T_w16[2] n490 n487 n486  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_60_U1_3 T_w15[3] T_w16[3] n491 n489 n488  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_59_U1_1 T_w13[1] T_w14[1] n401 n476 n475  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_59_U1_2 T_w13[2] T_w14[2] n481 n478 n477  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_59_U1_3 T_w13[3] T_w14[3] n482 n480 n479  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_58_U1_1 T_w11[1] T_w12[1] n400 n467 n466  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_58_U1_2 T_w11[2] T_w12[2] n472 n469 n468  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_58_U1_3 T_w11[3] T_w12[3] n473 n471 n470  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_57_U1_1 T_w9[1] T_w10[1] n399 n458 n457  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_57_U1_2 T_w9[2] T_w10[2] n463 n460 n459  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_57_U1_3 T_w9[3] T_w10[3] n464 n462 n461  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_56_U1_1 T_w7[1] T_w8[1] n398 n449 n448  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_56_U1_2 T_w7[2] T_w8[2] n454 n451 n450  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_56_U1_3 T_w7[3] T_w8[3] n455 n453 n452  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_55_U1_1 T_w5[1] T_w6[1] n397 n440 n439  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_55_U1_2 T_w5[2] T_w6[2] n445 n442 n441  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_55_U1_3 T_w5[3] T_w6[3] n446 n444 n443  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_54_U1_1 T_w3[1] T_w4[1] n396 n431 n430  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_54_U1_2 T_w3[2] T_w4[2] n436 n433 n432  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_54_U1_3 T_w3[3] T_w4[3] n437 n435 n434  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_53_U1_1 T_w1[1] T_w2[1] n395 n422 n421  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_53_U1_2 T_w1[2] T_w2[2] n427 n424 n423  VPRW VGND  FAx1_ASAP7_75t_R
+Xadd_53_U1_3 T_w1[3] T_w2[3] n428 n426 n425  VPRW VGND  FAx1_ASAP7_75t_R
+Xsum_level2_reg_7__0_ clk n648 sum_level2[42] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__0_ clk n636 sum_level2[36] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__0_ clk n624 sum_level2[30] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__0_ clk n612 sum_level2[24] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__0_ clk n600 sum_level2[18] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__0_ clk n588 sum_level2[12] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__0_ clk n576 sum_level2[6] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__0_ clk n564 sum_level2[0] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__0_ clk n703 sum_level4[8] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__0_ clk n695 sum_level4[0] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__0_ clk n687 sum_level3[21] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__0_ clk n680 sum_level3[14] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__0_ clk n673 sum_level3[7] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__0_ clk n666 sum_level3[0] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_0_ clk n712 P[0] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__1_ clk n702 sum_level4[9] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__1_ clk n694 sum_level4[1] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__1_ clk n686 sum_level3[22] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__1_ clk n679 sum_level3[15] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__1_ clk n672 sum_level3[8] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__1_ clk n665 sum_level3[1] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_1_ clk n711 P[1] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_7__1_ clk n649 sum_level2[43] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__1_ clk n637 sum_level2[37] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__1_ clk n625 sum_level2[31] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__1_ clk n613 sum_level2[25] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__1_ clk n601 sum_level2[19] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__1_ clk n589 sum_level2[13] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__1_ clk n577 sum_level2[7] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__1_ clk n565 sum_level2[1] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__2_ clk n701 sum_level4[10] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__2_ clk n693 sum_level4[2] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__2_ clk n685 sum_level3[23] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__2_ clk n678 sum_level3[16] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__2_ clk n671 sum_level3[9] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__2_ clk n664 sum_level3[2] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_2_ clk n710 P[2] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_7__2_ clk n651 sum_level2[44] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__2_ clk n639 sum_level2[38] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__2_ clk n627 sum_level2[32] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__2_ clk n615 sum_level2[26] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__2_ clk n603 sum_level2[20] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__2_ clk n591 sum_level2[14] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__2_ clk n579 sum_level2[8] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__2_ clk n567 sum_level2[2] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__3_ clk n700 sum_level4[11] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__3_ clk n692 sum_level4[3] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__3_ clk n684 sum_level3[24] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__3_ clk n677 sum_level3[17] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__3_ clk n670 sum_level3[10] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__3_ clk n663 sum_level3[3] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_3_ clk n709 P[3] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_7__3_ clk n653 sum_level2[45] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__3_ clk n641 sum_level2[39] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__3_ clk n629 sum_level2[33] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__3_ clk n617 sum_level2[27] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__3_ clk n605 sum_level2[21] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__3_ clk n593 sum_level2[15] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__3_ clk n581 sum_level2[9] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__3_ clk n569 sum_level2[3] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_7__5_ clk n656 sum_level2[47] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__5_ clk n644 sum_level2[41] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__5_ clk n632 sum_level2[35] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__5_ clk n620 sum_level2[29] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__5_ clk n608 sum_level2[23] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__5_ clk n596 sum_level2[17] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__5_ clk n584 sum_level2[11] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__5_ clk n572 sum_level2[5] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__4_ clk n699 sum_level4[12] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__4_ clk n691 sum_level4[4] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__4_ clk n683 sum_level3[25] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__4_ clk n676 sum_level3[18] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__4_ clk n669 sum_level3[11] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__4_ clk n662 sum_level3[4] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_4_ clk n708 P[4] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_7__4_ clk n655 sum_level2[46] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_6__4_ clk n643 sum_level2[40] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_5__4_ clk n631 sum_level2[34] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_4__4_ clk n619 sum_level2[28] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_3__4_ clk n607 sum_level2[22] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_2__4_ clk n595 sum_level2[16] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_1__4_ clk n583 sum_level2[10] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level2_reg_0__4_ clk n571 sum_level2[4] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__6_ clk n681 sum_level3[27] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__6_ clk n674 sum_level3[20] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__6_ clk n667 sum_level3[13] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__6_ clk n660 sum_level3[6] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__5_ clk n698 sum_level4[13] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__5_ clk n690 sum_level4[5] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_3__5_ clk n682 sum_level3[26] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_2__5_ clk n675 sum_level3[19] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_1__5_ clk n668 sum_level3[12] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level3_reg_0__5_ clk n661 sum_level3[5] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_5_ clk n707 P[5] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__7_ clk n696 sum_level4[15] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__7_ clk n688 sum_level4[7] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_1__6_ clk n697 sum_level4[14] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level4_reg_0__6_ clk n689 sum_level4[6] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_6_ clk n706 P[6] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_8_ clk n704 P[8] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XP_reg_7_ clk n705 P[7] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_15__0_ clk n555 sum_level1[75] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_14__0_ clk n546 sum_level1[70] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_13__0_ clk n537 sum_level1[65] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_12__0_ clk n528 sum_level1[60] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_11__0_ clk n519 sum_level1[55] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_10__0_ clk n510 sum_level1[50] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_9__0_ clk n501 sum_level1[45] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_8__0_ clk n492 sum_level1[40] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_7__0_ clk n483 sum_level1[35] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_6__0_ clk n474 sum_level1[30] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_5__0_ clk n465 sum_level1[25] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_4__0_ clk n456 sum_level1[20] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_3__0_ clk n447 sum_level1[15] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_2__0_ clk n438 sum_level1[10] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_1__0_ clk n429 sum_level1[5] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_0__0_ clk n420 sum_level1[0] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_15__1_ clk n556 sum_level1[76] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_14__1_ clk n547 sum_level1[71] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_13__1_ clk n538 sum_level1[66] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_12__1_ clk n529 sum_level1[61] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_11__1_ clk n520 sum_level1[56] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_10__1_ clk n511 sum_level1[51] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_9__1_ clk n502 sum_level1[46] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_8__1_ clk n493 sum_level1[41] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_7__1_ clk n484 sum_level1[36] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_6__1_ clk n475 sum_level1[31] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_5__1_ clk n466 sum_level1[26] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_4__1_ clk n457 sum_level1[21] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_3__1_ clk n448 sum_level1[16] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_2__1_ clk n439 sum_level1[11] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_1__1_ clk n430 sum_level1[6] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_0__1_ clk n421 sum_level1[1] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_15__2_ clk n558 sum_level1[77] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_14__2_ clk n549 sum_level1[72] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_13__2_ clk n540 sum_level1[67] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_12__2_ clk n531 sum_level1[62] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_11__2_ clk n522 sum_level1[57] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_10__2_ clk n513 sum_level1[52] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_9__2_ clk n504 sum_level1[47] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_8__2_ clk n495 sum_level1[42] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_7__2_ clk n486 sum_level1[37] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_6__2_ clk n477 sum_level1[32] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_5__2_ clk n468 sum_level1[27] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_4__2_ clk n459 sum_level1[22] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_3__2_ clk n450 sum_level1[17] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_2__2_ clk n441 sum_level1[12] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_1__2_ clk n432 sum_level1[7] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_0__2_ clk n423 sum_level1[2] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_15__4_ clk n561 sum_level1[79] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_14__4_ clk n552 sum_level1[74] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_13__4_ clk n543 sum_level1[69] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_12__4_ clk n534 sum_level1[64] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_11__4_ clk n525 sum_level1[59] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_10__4_ clk n516 sum_level1[54] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_9__4_ clk n507 sum_level1[49] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_8__4_ clk n498 sum_level1[44] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_7__4_ clk n489 sum_level1[39] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_6__4_ clk n480 sum_level1[34] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_5__4_ clk n471 sum_level1[29] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_4__4_ clk n462 sum_level1[24] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_3__4_ clk n453 sum_level1[19] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_2__4_ clk n444 sum_level1[14] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_1__4_ clk n435 sum_level1[9] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_0__4_ clk n426 sum_level1[4] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_15__3_ clk n560 sum_level1[78] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_14__3_ clk n551 sum_level1[73] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_13__3_ clk n542 sum_level1[68] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_12__3_ clk n533 sum_level1[63] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_11__3_ clk n524 sum_level1[58] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_10__3_ clk n515 sum_level1[53] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_9__3_ clk n506 sum_level1[48] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_8__3_ clk n497 sum_level1[43] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_7__3_ clk n488 sum_level1[38] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_6__3_ clk n479 sum_level1[33] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_5__3_ clk n470 sum_level1[28] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_4__3_ clk n461 sum_level1[23] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_3__3_ clk n452 sum_level1[18] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_2__3_ clk n443 sum_level1[13] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_1__3_ clk n434 sum_level1[8] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+Xsum_level1_reg_0__3_ clk n425 sum_level1[3] n713 n419 VPRW VGND ASYNC_DFFHx1_ASAP7_75t_R
+XU397 n419 VPRW VGND  TIELOx1_ASAP7_75t_R
+XU398 T_w1[0] T_w2[0] VPRW VGND  n395 AND2x2_ASAP7_75t_R
+XU399 T_w3[0] T_w4[0] VPRW VGND  n396 AND2x2_ASAP7_75t_R
+XU400 T_w5[0] T_w6[0] VPRW VGND  n397 AND2x2_ASAP7_75t_R
+XU401 T_w7[0] T_w8[0] VPRW VGND  n398 AND2x2_ASAP7_75t_R
+XU402 T_w9[0] T_w10[0] VPRW VGND  n399 AND2x2_ASAP7_75t_R
+XU403 T_w11[0] T_w12[0] VPRW VGND  n400 AND2x2_ASAP7_75t_R
+XU404 T_w13[0] T_w14[0] VPRW VGND  n401 AND2x2_ASAP7_75t_R
+XU405 T_w15[0] T_w16[0] VPRW VGND  n402 AND2x2_ASAP7_75t_R
+XU406 T_w17[0] T_w18[0] VPRW VGND  n403 AND2x2_ASAP7_75t_R
+XU407 T_w19[0] T_w20[0] VPRW VGND  n404 AND2x2_ASAP7_75t_R
+XU408 T_w21[0] T_w22[0] VPRW VGND  n405 AND2x2_ASAP7_75t_R
+XU409 T_w23[0] T_w24[0] VPRW VGND  n406 AND2x2_ASAP7_75t_R
+XU410 T_w25[0] T_w26[0] VPRW VGND  n407 AND2x2_ASAP7_75t_R
+XU411 T_w27[0] T_w28[0] VPRW VGND  n408 AND2x2_ASAP7_75t_R
+XU412 T_w29[0] T_w30[0] VPRW VGND  n409 AND2x2_ASAP7_75t_R
+XU413 T_w31[0] T_w32[0] VPRW VGND  n410 AND2x2_ASAP7_75t_R
+XU414 sum_level1[0] sum_level1[5] VPRW VGND  n411 AND2x2_ASAP7_75t_R
+XU415 sum_level1[10] sum_level1[15] VPRW VGND  n412 AND2x2_ASAP7_75t_R
+XU416 sum_level1[20] sum_level1[25] VPRW VGND  n413 AND2x2_ASAP7_75t_R
+XU417 sum_level1[30] sum_level1[35] VPRW VGND  n414 AND2x2_ASAP7_75t_R
+XU418 sum_level1[40] sum_level1[45] VPRW VGND  n415 AND2x2_ASAP7_75t_R
+XU419 sum_level1[50] sum_level1[55] VPRW VGND  n416 AND2x2_ASAP7_75t_R
+XU420 sum_level1[60] sum_level1[65] VPRW VGND  n417 AND2x2_ASAP7_75t_R
+XU421 sum_level1[70] sum_level1[75] VPRW VGND  n418 AND2x2_ASAP7_75t_R
+XU422 rst_n VPRW VGND  n713 INVx4_ASAP7_75t_R
+XU423 sum_level1[0] sum_level1[5] VPRW VGND  n564 XNOR2xp5_ASAP7_75t_R
+XU424 sum_level1[10] sum_level1[15] VPRW VGND  n576 XNOR2xp5_ASAP7_75t_R
+XU425 sum_level1[20] sum_level1[25] VPRW VGND  n588 XNOR2xp5_ASAP7_75t_R
+XU426 sum_level1[30] sum_level1[35] VPRW VGND  n600 XNOR2xp5_ASAP7_75t_R
+XU427 sum_level1[40] sum_level1[45] VPRW VGND  n612 XNOR2xp5_ASAP7_75t_R
+XU428 sum_level1[50] sum_level1[55] VPRW VGND  n624 XNOR2xp5_ASAP7_75t_R
+XU429 sum_level1[60] sum_level1[65] VPRW VGND  n636 XNOR2xp5_ASAP7_75t_R
+XU430 sum_level1[70] sum_level1[75] VPRW VGND  n648 XNOR2xp5_ASAP7_75t_R
+XU431 T_w1[0] T_w2[0] VPRW VGND  n420 XNOR2xp5_ASAP7_75t_R
+XU432 T_w3[0] T_w4[0] VPRW VGND  n429 XNOR2xp5_ASAP7_75t_R
+XU433 T_w5[0] T_w6[0] VPRW VGND  n438 XNOR2xp5_ASAP7_75t_R
+XU434 T_w7[0] T_w8[0] VPRW VGND  n447 XNOR2xp5_ASAP7_75t_R
+XU435 T_w9[0] T_w10[0] VPRW VGND  n456 XNOR2xp5_ASAP7_75t_R
+XU436 T_w11[0] T_w12[0] VPRW VGND  n465 XNOR2xp5_ASAP7_75t_R
+XU437 T_w13[0] T_w14[0] VPRW VGND  n474 XNOR2xp5_ASAP7_75t_R
+XU438 T_w15[0] T_w16[0] VPRW VGND  n483 XNOR2xp5_ASAP7_75t_R
+XU439 T_w17[0] T_w18[0] VPRW VGND  n492 XNOR2xp5_ASAP7_75t_R
+XU440 T_w19[0] T_w20[0] VPRW VGND  n501 XNOR2xp5_ASAP7_75t_R
+XU441 T_w21[0] T_w22[0] VPRW VGND  n510 XNOR2xp5_ASAP7_75t_R
+XU442 T_w23[0] T_w24[0] VPRW VGND  n519 XNOR2xp5_ASAP7_75t_R
+XU443 T_w25[0] T_w26[0] VPRW VGND  n528 XNOR2xp5_ASAP7_75t_R
+XU444 T_w27[0] T_w28[0] VPRW VGND  n537 XNOR2xp5_ASAP7_75t_R
+XU445 T_w29[0] T_w30[0] VPRW VGND  n546 XNOR2xp5_ASAP7_75t_R
+XU446 T_w31[0] T_w32[0] VPRW VGND  n555 XNOR2xp5_ASAP7_75t_R
+XU447 n422 VPRW VGND  n427 INVx1_ASAP7_75t_R
+XU448 n424 VPRW VGND  n428 INVx1_ASAP7_75t_R
+XU449 n431 VPRW VGND  n436 INVx1_ASAP7_75t_R
+XU450 n433 VPRW VGND  n437 INVx1_ASAP7_75t_R
+XU451 n440 VPRW VGND  n445 INVx1_ASAP7_75t_R
+XU452 n442 VPRW VGND  n446 INVx1_ASAP7_75t_R
+XU453 n449 VPRW VGND  n454 INVx1_ASAP7_75t_R
+XU454 n451 VPRW VGND  n455 INVx1_ASAP7_75t_R
+XU455 n458 VPRW VGND  n463 INVx1_ASAP7_75t_R
+XU456 n460 VPRW VGND  n464 INVx1_ASAP7_75t_R
+XU457 n467 VPRW VGND  n472 INVx1_ASAP7_75t_R
+XU458 n469 VPRW VGND  n473 INVx1_ASAP7_75t_R
+XU459 n476 VPRW VGND  n481 INVx1_ASAP7_75t_R
+XU460 n478 VPRW VGND  n482 INVx1_ASAP7_75t_R
+XU461 n485 VPRW VGND  n490 INVx1_ASAP7_75t_R
+XU462 n487 VPRW VGND  n491 INVx1_ASAP7_75t_R
+XU463 n494 VPRW VGND  n499 INVx1_ASAP7_75t_R
+XU464 n496 VPRW VGND  n500 INVx1_ASAP7_75t_R
+XU465 n503 VPRW VGND  n508 INVx1_ASAP7_75t_R
+XU466 n505 VPRW VGND  n509 INVx1_ASAP7_75t_R
+XU467 n512 VPRW VGND  n517 INVx1_ASAP7_75t_R
+XU468 n514 VPRW VGND  n518 INVx1_ASAP7_75t_R
+XU469 n521 VPRW VGND  n526 INVx1_ASAP7_75t_R
+XU470 n523 VPRW VGND  n527 INVx1_ASAP7_75t_R
+XU471 n530 VPRW VGND  n535 INVx1_ASAP7_75t_R
+XU472 n532 VPRW VGND  n536 INVx1_ASAP7_75t_R
+XU473 n539 VPRW VGND  n544 INVx1_ASAP7_75t_R
+XU474 n541 VPRW VGND  n545 INVx1_ASAP7_75t_R
+XU475 n548 VPRW VGND  n553 INVx1_ASAP7_75t_R
+XU476 n550 VPRW VGND  n554 INVx1_ASAP7_75t_R
+XU477 n557 VPRW VGND  n562 INVx1_ASAP7_75t_R
+XU478 n559 VPRW VGND  n563 INVx1_ASAP7_75t_R
+XU479 n566 VPRW VGND  n573 INVx1_ASAP7_75t_R
+XU480 n568 VPRW VGND  n574 INVx1_ASAP7_75t_R
+XU481 n570 VPRW VGND  n575 INVx1_ASAP7_75t_R
+XU482 n578 VPRW VGND  n585 INVx1_ASAP7_75t_R
+XU483 n580 VPRW VGND  n586 INVx1_ASAP7_75t_R
+XU484 n582 VPRW VGND  n587 INVx1_ASAP7_75t_R
+XU485 n590 VPRW VGND  n597 INVx1_ASAP7_75t_R
+XU486 n592 VPRW VGND  n598 INVx1_ASAP7_75t_R
+XU487 n594 VPRW VGND  n599 INVx1_ASAP7_75t_R
+XU488 n602 VPRW VGND  n609 INVx1_ASAP7_75t_R
+XU489 n604 VPRW VGND  n610 INVx1_ASAP7_75t_R
+XU490 n606 VPRW VGND  n611 INVx1_ASAP7_75t_R
+XU491 n614 VPRW VGND  n621 INVx1_ASAP7_75t_R
+XU492 n616 VPRW VGND  n622 INVx1_ASAP7_75t_R
+XU493 n618 VPRW VGND  n623 INVx1_ASAP7_75t_R
+XU494 n626 VPRW VGND  n633 INVx1_ASAP7_75t_R
+XU495 n628 VPRW VGND  n634 INVx1_ASAP7_75t_R
+XU496 n630 VPRW VGND  n635 INVx1_ASAP7_75t_R
+XU497 n638 VPRW VGND  n645 INVx1_ASAP7_75t_R
+XU498 n640 VPRW VGND  n646 INVx1_ASAP7_75t_R
+XU499 n642 VPRW VGND  n647 INVx1_ASAP7_75t_R
+XU500 n650 VPRW VGND  n657 INVx1_ASAP7_75t_R
+XU501 n652 VPRW VGND  n658 INVx1_ASAP7_75t_R
+XU502 n654 VPRW VGND  n659 INVx1_ASAP7_75t_R
+XU503 N135 VPRW VGND  n660 INVx1_ASAP7_75t_R
+XU504 N134 VPRW VGND  n661 INVx1_ASAP7_75t_R
+XU505 N133 VPRW VGND  n662 INVx1_ASAP7_75t_R
+XU506 N132 VPRW VGND  n663 INVx1_ASAP7_75t_R
+XU507 N131 VPRW VGND  n664 INVx1_ASAP7_75t_R
+XU508 N130 VPRW VGND  n665 INVx1_ASAP7_75t_R
+XU509 N129 VPRW VGND  n666 INVx1_ASAP7_75t_R
+XU510 N142 VPRW VGND  n667 INVx1_ASAP7_75t_R
+XU511 N141 VPRW VGND  n668 INVx1_ASAP7_75t_R
+XU512 N140 VPRW VGND  n669 INVx1_ASAP7_75t_R
+XU513 N139 VPRW VGND  n670 INVx1_ASAP7_75t_R
+XU514 N138 VPRW VGND  n671 INVx1_ASAP7_75t_R
+XU515 N137 VPRW VGND  n672 INVx1_ASAP7_75t_R
+XU516 N136 VPRW VGND  n673 INVx1_ASAP7_75t_R
+XU517 N149 VPRW VGND  n674 INVx1_ASAP7_75t_R
+XU518 N148 VPRW VGND  n675 INVx1_ASAP7_75t_R
+XU519 N147 VPRW VGND  n676 INVx1_ASAP7_75t_R
+XU520 N146 VPRW VGND  n677 INVx1_ASAP7_75t_R
+XU521 N145 VPRW VGND  n678 INVx1_ASAP7_75t_R
+XU522 N144 VPRW VGND  n679 INVx1_ASAP7_75t_R
+XU523 N143 VPRW VGND  n680 INVx1_ASAP7_75t_R
+XU524 N156 VPRW VGND  n681 INVx1_ASAP7_75t_R
+XU525 N155 VPRW VGND  n682 INVx1_ASAP7_75t_R
+XU526 N154 VPRW VGND  n683 INVx1_ASAP7_75t_R
+XU527 N153 VPRW VGND  n684 INVx1_ASAP7_75t_R
+XU528 N152 VPRW VGND  n685 INVx1_ASAP7_75t_R
+XU529 N151 VPRW VGND  n686 INVx1_ASAP7_75t_R
+XU530 N150 VPRW VGND  n687 INVx1_ASAP7_75t_R
+XU531 N164 VPRW VGND  n688 INVx1_ASAP7_75t_R
+XU532 N163 VPRW VGND  n689 INVx1_ASAP7_75t_R
+XU533 N162 VPRW VGND  n690 INVx1_ASAP7_75t_R
+XU534 N161 VPRW VGND  n691 INVx1_ASAP7_75t_R
+XU535 N160 VPRW VGND  n692 INVx1_ASAP7_75t_R
+XU536 N159 VPRW VGND  n693 INVx1_ASAP7_75t_R
+XU537 N158 VPRW VGND  n694 INVx1_ASAP7_75t_R
+XU538 N157 VPRW VGND  n695 INVx1_ASAP7_75t_R
+XU539 N172 VPRW VGND  n696 INVx1_ASAP7_75t_R
+XU540 N171 VPRW VGND  n697 INVx1_ASAP7_75t_R
+XU541 N170 VPRW VGND  n698 INVx1_ASAP7_75t_R
+XU542 N169 VPRW VGND  n699 INVx1_ASAP7_75t_R
+XU543 N168 VPRW VGND  n700 INVx1_ASAP7_75t_R
+XU544 N167 VPRW VGND  n701 INVx1_ASAP7_75t_R
+XU545 N166 VPRW VGND  n702 INVx1_ASAP7_75t_R
+XU546 N165 VPRW VGND  n703 INVx1_ASAP7_75t_R
+XU547 N181 VPRW VGND  n704 INVx1_ASAP7_75t_R
+XU548 N180 VPRW VGND  n705 INVx1_ASAP7_75t_R
+XU549 N179 VPRW VGND  n706 INVx1_ASAP7_75t_R
+XU550 N178 VPRW VGND  n707 INVx1_ASAP7_75t_R
+XU551 N177 VPRW VGND  n708 INVx1_ASAP7_75t_R
+XU552 N176 VPRW VGND  n709 INVx1_ASAP7_75t_R
+XU553 N175 VPRW VGND  n710 INVx1_ASAP7_75t_R
+XU554 N174 VPRW VGND  n711 INVx1_ASAP7_75t_R
+XU555 N173 VPRW VGND  n712 INVx1_ASAP7_75t_R
+.ENDS
+
+
+
+
